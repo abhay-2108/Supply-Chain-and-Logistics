@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supply Chain and Logistics</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#models">Models</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="background">
+        <div class="overlay-content">
+            <h1>Supply Chain and Logistics</h1>
+            <p>Automated Inventory management Systems.</p>
+            <p>AI Powered demand forecasting.</p>
+            <button onclick="window.location.href='#get-started';">Get Started</button>
+        </div>
+    </div>
+
+    <section id="customer-section">
+        <h2>Are you a new or existing customer?</h2>
+        <button id="newCustomerBtn">New Customer</button>
+        <button id="existingCustomerBtn">Existing Customer</button>
+    </section>
+
+    <div id="signupModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <span class="close" id="closeSignup">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <input type="text" placeholder="Full Name" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Sign Up</button>
+            </form>
+        </div>
+    </div>
+
+    <div id="loginModal" class="modal" aria-hidden="true">
+        <div class="modal-content">
+            <span class="close" id="closeLogin">&times;</span>
+            <h2>Login</h2>
+            <form id="loginForm">
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+
+<!-- Questions Modal -->
+<div id="questionsModal" class="modal" aria-hidden="true">
+    <div class="modal-content">
+        <span class="close" id="closeQuestions">&times;</span>
+        <h2>Answer the Following Questions</h2>
+        <form id="questionsForm">
+            <div id="questionsContainer"></div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
