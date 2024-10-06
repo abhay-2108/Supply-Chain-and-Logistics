@@ -35,8 +35,8 @@
 /* Fullscreen layout */
 body {
     font-family: Arial, sans-serif;
-    background: rgb(0,0,0);
-    background: linear-gradient(299deg, rgba(0,0,0,1) 0%, rgba(252,0,0,1) 51%, rgba(252,252,252,1) 100%);
+    background: rgb(186,0,1);
+background: linear-gradient(299deg, rgba(186,0,1,1) 0%, rgba(244,109,117,1) 55%, rgba(247,180,187,1) 100%);
 }
 
 /* Navbar styles */
@@ -204,7 +204,7 @@ body, html {
     background: linear-gradient(135deg, #ffffff, #ffffff);
     -webkit-background-clip: text;
     /* -webkit-text-fill-color: transparent; */
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0);
     transition: all 0.3s ease-in-out;
 }
 
@@ -229,18 +229,18 @@ body, html {
 .overlay-content button {
     padding: 15px 40px;
     font-size: 16px;
-    background: linear-gradient(135deg, #f6ff44, #ef0000);
+    background: linear-gradient(127deg, #7ecccc, #e27171);
     border: none;
     border-radius: 25px;
     color: rgb(0, 0, 0);
     cursor: pointer;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.);
     transition: all 0.3s ease-in-out;
     font-weight: bold;
 }
 
 .overlay-content button:hover {
-    background: linear-gradient(135deg, #ff0000, #932222);
+    background: linear-gradient(135deg, #ff6060, #70abf3);
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
@@ -254,7 +254,7 @@ body, html {
 #customer-section button {
     padding: 15px 40px;
     font-size: 16px;
-    background: linear-gradient(135deg, #f6ff44, #ef0000);
+    background: linear-gradient(127deg, #7ecccc, #e27171);
     border: none;
     border-radius: 25px;
     color: rgb(0, 0, 0);
@@ -265,7 +265,7 @@ body, html {
 }
 
 #customer-section button:hover {
-    background: linear-gradient(135deg, #ff0000, #932222);
+    background: linear-gradient(135deg, #ff6060, #70abf3);
     transform: scale(1.05);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
