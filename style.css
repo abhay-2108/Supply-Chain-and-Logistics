@@ -71,8 +71,10 @@ body, html {
 
 /* Logo styling */
 .logo img {
-    max-width: 150px;
-    height: auto;
+    max-width: 50px;
+    height:45px;
+    margin-left: 5px;
+    border-radius: 50%;
     transition: transform 0.3s ease;
 }
 
@@ -249,6 +251,7 @@ body, html {
 #customer-section {
     text-align: center;
     margin: 50px auto;
+    color: rgb(255, 254, 254);
 }
 
 #customer-section button {
@@ -257,7 +260,7 @@ body, html {
     background: linear-gradient(135deg, #f6ff44, #ef0000);
     border: none;
     border-radius: 25px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 254, 254);
     cursor: pointer;
     margin: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
